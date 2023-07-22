@@ -1,0 +1,174 @@
+/*common css start*/
+body{
+	font-family:sans-serif;
+	font-size: 16px;
+	font-weight:400;
+	color: # 0f2656;
+}
+
+/*common css end*/
+/*header start*/
+
+header
+{  margin: 0 0;
+	border-bottom: 2px solid #eae8e8;
+	padding: 15px 0;
+
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid darkred;*/
+    overflow: hidden;
+
+}
+
+.logo{
+	width: 10%;
+	/*border: 1px solid black;*/
+    float: left;}
+    .div container2{text-align: center;}
+
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	/*border: 1px solid black;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a
+    {display: inline-block;
+	padding: 0px 25px;
+	text-decoration: none;
+	transition: .33s;}
+
+
+.menu ul li: last-child a{padding-right: 0;}
+
+.menu ul li a: hover{color:#008aff;}
+
+
+/*header end*/
+/*banner start*/
+.container2{
+	margin: 0 auto;
+	width: 65%;
+	/*border: 1px solid black;*/
+	text-align: center;
+	overflow: hidden;
+}
+.b_h1
+{
+	letter-spacing:1px;
+white-space: 2px;
+padding: 0 290px;
+font-size: 45px;
+font-weight: 700;
+line-height: 50px
+
+
+}
+.b_h1 span {
+padding: 90px 5px;
+	color: #008aff;}
+.b_img{
+	margin: 0 auto;
+	width: 65%
+	border: 1px solid black;
+}
+.b_p{
+	margin: 20px 0 30px;
+    line-height: 30px;
+	padding: 0 15px;
+}
+.b_img img{width: 70%;
+padding: 20px 20px;
+margin: 0 auto;}
+
+/*banner end*/
+
+.c2 {overflow: hidden;}
+/*success start*/
+.container2c2{
+	margin: 0 auto;
+	width: 40%;
+	/*border: 1px solid black;*/
+	text-align: center;
+	overflow: hidden;}
+
+.s_right{ text-align: left;
+	font-size: 40px;
+	color: navy;
+	padding:30px 0px;
+	float: right;
+	margin: 2px 5px;
+	width: 45%;
+}
+.s_left{font-size: 20px;
+text-align: right;
+padding:70px 5px;
+	float: left;
+margin: 0 auto;
+width: 50%;
+
+
+}
+
+.bing
+{margin: 0 auto;
+text-align: right;
+padding: 1px;
+color: darkred;
+font-size: 50px;
+}
+/*success end*/ 
+/*service start*/
+.service{}
+.single_service{
+	padding: 20px 2px 2px 65px;
+	width: 29%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin: 0px 5px 5px 3px;
+
+}
+
+
+.single_service: nth-child(2) {background: green;}
+.single_service: last-child {background: red;}
+
+.single_service: first-child{background-color: blue;}
+.single_service:nth-child(2){background-color: red;}
+.container{}
+.ss_img{}
+.ss_img img{width: 100%}
+.ss_h2{
+	margin: 25px 0;
+	font-size: 24px;
+font-weight: 700}
+.ss_p{
+	margin: 0;
+	line-height: 25px;
+
+}
+
+
+/*service end*/
+/*footer start*/
+.footer{padding: 40px 0;
+text-align: center;
+background:red;}
+.footer p{color: blue;
+letter-spacing: 1px;}
+.footer a{letter-spacing: 4px;
+color: green;
+text-decoration: none;}
+/*footer end*/
